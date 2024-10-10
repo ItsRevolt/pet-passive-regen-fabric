@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "lol.revolt.petpassiveregen.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"FoxEntityAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
