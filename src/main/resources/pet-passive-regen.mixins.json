@@ -4,7 +4,8 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin",
-		"FoxEntityAccessor"
+		"FoxEntityAccessor",
+		"OcelotEntityAccessor"
 	],
 	"injectors": {
 		"defaultRequire": 1

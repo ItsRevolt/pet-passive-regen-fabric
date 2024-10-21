@@ -9,7 +9,7 @@
       "console": "integratedTerminal",
       "stopOnEntry": false,
       "mainClass": "net.fabricmc.devlaunchinjector.Main",
-      "vmArgs": "-Dfabric.dli.config\u003d/home/revolt/Documents/minecraft_dev/pet-passive-regen/.gradle/loom-cache/launch.cfg -Dfabric.dli.env\u003dclient -Dfabric.dli.main\u003dnet.fabricmc.loader.impl.launch.knot.KnotClient",
+      "vmArgs": "-Dfabric.dli.config\u003d/home/revolt/Documents/minecraft_dev/pet-passive-regen/.gradle/loom-cache/launch.cfg -Dfabric.dli.env\u003dclient -Dfabric.dli.main\u003dnet.fabricmc.loader.impl.launch.knot.KnotClient -Dmixin.debug.export=true",
       "args": "",
       "env": {},
       "projectName": "pet-passive-regen"
@@ -35,7 +35,7 @@
       "console": "integratedTerminal",
       "stopOnEntry": false,
       "mainClass": "net.fabricmc.devlaunchinjector.Main",
-      "vmArgs": "-Dfabric.dli.config\u003d/home/revolt/Documents/minecraft_dev/pet-passive-regen/.gradle/loom-cache/launch.cfg -Dfabric.dli.env\u003dserver -Dfabric.dli.main\u003dnet.fabricmc.loader.impl.launch.knot.KnotServer",
+      "vmArgs": "-Dfabric.dli.config\u003d/home/revolt/Documents/minecraft_dev/pet-passive-regen/.gradle/loom-cache/launch.cfg -Dfabric.dli.env\u003dserver -Dmixin.debug.export=true -Dfabric.dli.main\u003dnet.fabricmc.loader.impl.launch.knot.KnotServer",
       "args": "nogui",
       "env": {},
       "projectName": "pet-passive-regen"
